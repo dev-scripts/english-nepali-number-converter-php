@@ -1,0 +1,50 @@
+{
+    "name": "dev-scripts/english-nepali-number-converter-php",
+    "description": "Package to convert English number to Nepali number and Nepali number to English number.",
+    "keywords": [
+        "Nepali Number converter",
+        "English to Nepali number converter",
+        "Nepali to English number converter",
+        "Hindu Arabic to English number",
+        "English number to Hindu Arabic",
+        "Number Converter",
+        "PHP package converter English number to Nepali number",
+        "PHP package converter Nepali number to English number"
+    ],
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prakash Bhandari",
+            "email": "thebhandariprakash@gmail.com"
+        }
+    ],
+    "homepage": "https://prakashbhandari.com.np/",
+    "support": {
+        "issues": "https://github.com/dev-scripts/english-nepali-number-converter-php/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevScripts\\EnglishNepaliNumberConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DevScripts\\EnglishNepaliNumberConverter\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevScripts\\EnglishNepaliNumberConverter\\EnglishNepaliNumberConverterProvider"
+            ]
+        }
+    }
+}
